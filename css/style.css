@@ -6,6 +6,8 @@
     margin-right: 168px;
 }
 .nav {
+    background-color: #012D63;
+    
 }
 .header {
 }
@@ -16,4 +18,35 @@
 .oreder {
 }
 .footer {
+}
+.nav-wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    width: 100px;
+    height: 60px;
+    margin-right: 152px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    color: #C7C7C7;
+}
+.nav-list-item:hover{
+    color: white;
+}
+.nav-language-item{
+    color: #C7C7C7;
+    
+}
+.nav-language-item:hover{
+    color: white;
+
+}
+.nav-language{
+    display: flex;
+    column-gap: 15px;
 }
